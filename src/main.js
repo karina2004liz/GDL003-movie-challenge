@@ -1,6 +1,13 @@
-var app = {};
-app.appikey =
-
+fetch('http://www.omdbapi.com/?i=tt3896198&apikey=98d30079')
+    .then(function(response) {
+        return response.text();
+    })
+    .then(function(data) {
+        console.log(data);
+    })
+    .catch(function(err) {
+        console.error(err);
+    });
 
 
 
