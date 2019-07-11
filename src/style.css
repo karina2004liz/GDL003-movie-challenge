@@ -1,21 +1,25 @@
+#container{
 
+  overflow-x: scroll;
+  overflow-y: hidden;
+  white-space: nowrap;
+
+}
 
 .container {
-  position: relative;
-  float: left;
-  margin-left: 5px;
+
+ display: inline-block;
+
 }
 
-.sliding-background {
-  background-repeat: repeat;
-  animation: slide 60s linear infinite;
+body{
+background-image: url("http://static1.squarespace.com/static/533476eee4b044cf7c28f6ca/533482dee4b009cdbfa189eb/54b8628ae4b09cb81d7f998c/1421376050830/?format=1500w");
+background-size: cover;
+background-repeat: no-repeat;
+background-attachment: fixed;
 }
 
-@keyframes slide{
-  0%{
-    transform: translate3d(0, 0, 0);
-  }
-  100%{
-    transform: translate3d(-1692px, 0, 0);
-  }
+h1,h2{
+
+  color: white;
 }

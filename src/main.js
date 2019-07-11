@@ -1,6 +1,6 @@
 const allMovies = ['tt0800369','tt1981115','tt3501632','tt6016776','tt1667903','tt6599818','tt1792794','tt1260572','tt1241721','tt1922373']
 
-function movies() {
+
  allMovies.forEach( function(item) {
 fetch('https://www.omdbapi.com/?i='+ item  + '&apikey=98d30079')
   .then(res => res.json())
@@ -8,7 +8,7 @@ fetch('https://www.omdbapi.com/?i='+ item  + '&apikey=98d30079')
  document.getElementById('container').innerHTML += movieCard(data);
 });
 });
-};
+
 
 
 movieCard=(data)=>{
