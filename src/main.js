@@ -214,6 +214,11 @@ fetch('https://www.omdbapi.com/?i='+ item + '&apikey=98d30079')
 });
 });
 
+
+let buttonReset = document.getElementById("buttonReset");
+buttonReset.addEventListener('click',() => {
+window.location = "#header";
+});
 /*
 
 <div>

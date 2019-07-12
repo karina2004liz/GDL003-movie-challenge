@@ -16,6 +16,7 @@ header{
     position: center;
     width: 100%;
     height: 40rem;
+
 }
 
 .MarvelGif {
@@ -60,6 +61,7 @@ h2:hover {
     padding: 3.5rem;
     position: relative;
     padding-top: 0;
+    z-index: 1;
 }
 
     .navigation{
@@ -205,4 +207,24 @@ h2:hover {
   color: white;
   transform: rotateY(180deg);
 
+}
+
+
+#buttonReset {
+    position: fixed;
+    bottom: 10px;
+    background-image: url("http://i63.tinypic.com/6hnnle.jpg");
+    width: 8rem;
+    height: 8rem;
+    padding: 1rem;
+    margin: 2rem;
+    background: cover;
+    background-repeat: no-repeat;
+    background-size: 8rem 8rem;
+    margin-bottom: 1rem;
+    cursor: pointer;
+}
+
+#buttonReset:hover {
+    background-color: #434343;
 }

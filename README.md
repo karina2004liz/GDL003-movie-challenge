@@ -36,6 +36,17 @@ Hombres y Mujeres de 15 a 36 años que gusten de peliculas de superheroes y cons
 
 Realizamos una webapp que interactua con el usuario a través del navegador y la lógica basada en esa interacción, la cual contiene un listado de peliculas del universo de Marvel, sirve para que el usuario pueda acceder a una pelicula de Marvel de una forma facil por medio de un filtrado especifico por superheroe.
 
+## Prototipo de baja fidelidad
+
+![prototipoBajaFidelidad](https://i.ibb.co/Wnm1hLg/baja.jpg)
+
+
+## Prototipo de alta fidelidad
+
+
+![prototipoAltaFidelidad](https://i.ibb.co/Wnm1hLg/baja.jpg)
+
+
 ## Consideraciones generales
 *El prototipo se penso con la idea original de los sitios web de peliculas mas populares.
 *Para facilitar el desplazamiento del usuario en la web utilizamos un menu interactivo que despliega los nombres de los superheroes incluidos en la data, ademas de scroll horizontal el cual incluye todas las peliculas que hay por superheroe.
