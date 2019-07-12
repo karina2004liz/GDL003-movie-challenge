@@ -79,7 +79,7 @@ h2:hover {
         text-decoration:none;
         padding: 1rem 1rem;
         display:block;
-  
+
     }
 
     .nav li a:hover {
@@ -156,13 +156,7 @@ margin-bottom: 0rem;
   margin-top:0rem;
 }
 
-#container,#container2{
 
-  overflow-x: scroll;
-  overflow-y: hidden;
-  white-space: nowrap;
-
-}
 
 .container {
  display: inline-block;
