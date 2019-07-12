@@ -25,9 +25,28 @@ const elektra = ["tt0357277","tt1340773","tt1513070","tt0277689","tt1920913","tt
 
 
 movieCard=(data)=>{
-        return   `<div class= container>
-          <img id= imgPoster src="${data.Poster}" style= "width: 140px; height: 215px">
-          </div>
+        return   `
+
+          <div class="flip-card">
+           <div class="flip-card-inner">
+             <div class="flip-card-front">
+             <div class= container>
+               <img id= imgPoster src="${data.Poster}" style= "width: 205px; height: 270px">
+               </div>
+             </div>
+             <div class="flip-card-back" style= "word-wrap: break-word">
+               <p>${data.Title}</p>
+               <p>Country : ${data.Country}</p>
+               <p>Year : ${data.Year}  </p>
+               <p style= "width: 205px">Director : ${data.Director}</p>
+               <p>${data.Plot}</p>
+             </div>
+           </div>
+         </div>
+
+
+
+
 
 `
 };
