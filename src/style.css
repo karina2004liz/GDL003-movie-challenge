@@ -1,54 +1,46 @@
-
 header{
   background-image: url("http://pavbca.com/walldb/original/c/5/2/322811.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   background-attachment: scroll;
+  padding: 20rem 20rem;
 }
 
-.MarvelGif{
-  background-size: 15rem 20rem;
-  background-repeat: no-repeat;
-  background-attachment: local ;
-  max-width: 100%
-  padding: 15em;
-
-}
-.MarvelGif #imgmarvel{
-  margin-right: 10rem;
-  margin-top:20rem;
-  margin-bottom: 0rem;
-  margin-left: 30rem;
-  width: 20rem;
-  height: 11rem;
+.barramenu{
+background-color:#000000;
+background-repeat: no-repeat;
+background-attachment: scroll;
+background-position: 0% 50%;
+padding: 1.875rem 1.875rem;
+margin-bottom: 0rem;
 }
 
+.containerPrincipal{
+  background-color:#861B1C;
+  margin-top:0rem;
+}
 
-.containerHtml{
-
+#container,#container2{
 
   overflow-x: scroll;
   overflow-y: hidden;
   white-space: nowrap;
-  margin-top: 30px;
+
 }
 
 .container {
-
  display: inline-block;
 
-  }
+   }
 
 
-.container:hover #imgPoster{transform:scale(1.2); filter: saturate(190%);}
+ .container:hover #imgPoster{transform:scale(1.2); filter: saturate(190%);}
 
-.containerPrincipal{
-margin-left: 70px;
-margin-right: 70px;
+ .containerPrincipal{
+ margin-left: 70px;
+ margin-right: 70px;
 
-}
-
-
+ }
 
 main{
 background-color: #861B1C;
@@ -58,6 +50,5 @@ background-attachment: fixed;
 }
 
 h1,h2{
-
-  color: red;
+  color: white;
 }
