@@ -29,6 +29,10 @@ Regularmente realizan la busqueda de peliculas por su nombre y seleccionan el se
 * Calidad de Video
 * Facil de Usar
 
+![encuesta1](https://i.ibb.co/j64mhVS/encuesta.jpg)
+![encuesta2](https://i.ibb.co/xJHV22G/encuesta2.jpg)
+![encuesta3](https://i.ibb.co/Rgc3pD6/encuensta3.jpg)
+
 ## Definicion de Usuario
 Hombres y Mujeres de 15 a 36 años que gusten de peliculas de superheroes y consumen servicios de reprduccion de peliculas por una web.
 
@@ -59,7 +63,7 @@ El usuario podra visualizar por medio de scroll horizontal todas las peliculas c
 El usuario puede elegir a un superheroe en especifico por medio de un menu interactivo el cual realiza el filtrado y muestra todas las peliculas de el superheroe seleccionado.
 
 ## Sobre las presentaciones
-(Etapa1)
+(Final)
 - Prototipo de Baja fidelidad (Todas)
 - Prototipo de Alta fidelidad (Karen)
 - Investigacion (Todas)
