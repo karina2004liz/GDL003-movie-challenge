@@ -1,6 +1,5 @@
 const thor = ['tt0800369','tt1981115','tt3501632','tt6016776','tt1667903','tt6599818','tt1792794','tt1260572','tt1241721','tt1922373']
 const xmen =["tt1877832","tt1270798","tt0120903","tt0290334","tt0376994","tt0458525","tt3385516","tt0103584","tt0247827","tt0772145"]
-const spiderman = ["tt2705436","tt2084949","tt0100669","tt1785572","tt1132238","tt1433184","tt2233044","tt2586634","tt2158533","tt3696826"]
 const ironman = ["tt0371746","tt1300854","tt1228705","tt0120744","tt1258972","tt0096251","tt3296908","tt0903135","tt2654124","tt3625152"]
 const hulk = ["tt0800080","tt0286716","tt1483025","tt1325753","tt0077031", "tt0095368","tt0115215","tt2455514","tt0098512","tt0099387"]
 const doctorstrange = ["tt1211837"]
@@ -183,6 +182,37 @@ fetch('https://www.omdbapi.com/?i='+ item + '&apikey=98d30079')
 });
 });
 
+ghostRider.forEach( function(item) {
+fetch('https://www.omdbapi.com/?i='+ item + '&apikey=98d30079')
+  .then(res => res.json())
+   .then(data => {
+ document.getElementById('container17').innerHTML += movieCard(data);
+});
+});
+
+blade.forEach( function(item) {
+fetch('https://www.omdbapi.com/?i='+ item + '&apikey=98d30079')
+  .then(res => res.json())
+   .then(data => {
+ document.getElementById('container18').innerHTML += movieCard(data);
+});
+});
+
+elektra.forEach( function(item) {
+fetch('https://www.omdbapi.com/?i='+ item + '&apikey=98d30079')
+  .then(res => res.json())
+   .then(data => {
+ document.getElementById('container19').innerHTML += movieCard(data);
+});
+});
+
+captainMarvel.forEach( function(item) {
+fetch('https://www.omdbapi.com/?i='+ item + '&apikey=98d30079')
+  .then(res => res.json())
+   .then(data => {
+ document.getElementById('container20').innerHTML += movieCard(data);
+});
+});
 
 /*
 
