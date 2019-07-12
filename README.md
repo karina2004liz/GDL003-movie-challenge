@@ -44,7 +44,9 @@ Realizamos una webapp que interactua con el usuario a través del navegador y la
 ## Prototipo de alta fidelidad
 
 
-![prototipoAltaFidelidad](https://i.ibb.co/Wnm1hLg/baja.jpg)
+![prototipoAltaFidelidad](https://i.ibb.co/Hn6p4LT/8da38f1b-4d17-40ac-a616-d25e5e1e19fd.jpg)
+![prototipoAltaFidelidad2](https://i.ibb.co/pP9JNYH/f630d5b6-f2eb-4255-9524-b30772a18f96.jpg)
+![prototipoAltaFidelidad3](https://i.ibb.co/yfFNJT6/a2b449c0-d714-4715-a17d-b9bcf399187d.jpg)
 
 
 ## Consideraciones generales
@@ -62,4 +64,4 @@ El usuario puede elegir a un superheroe en especifico por medio de un menu inter
 - Prototipo de Alta fidelidad (Karen)
 - Investigacion (Todas)
 - Webapp (Todas)
-- ReadMe (Isela)
+- ReadMe (Isela, Karina)
