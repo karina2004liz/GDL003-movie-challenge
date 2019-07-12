@@ -5,18 +5,21 @@ header{
   background-attachment: scroll;
 }
 
+.MarvelGif{
+  background-size: 15rem 20rem;
+  background-repeat: no-repeat;
+  background-attachment: local ;
+  max-width: 100%
+  padding: 15em;
+
+}
 .MarvelGif #imgmarvel{
-  margin-left: 23rem;
-  margin-top: 27rem;
-  margin-bottom: 3rem;
-  -moz-transform:none;
-  -webkit-transform:none;
-  -o-transform:none;
-  -ms-transform:none;
-  transform:none;
-  width: 30rem;
-
-
+  margin-right: 10rem;
+  margin-top:20rem;
+  margin-bottom: 0rem;
+  margin-left: 30rem;
+  width: 20rem;
+  height: 11rem;
 }
 #container{
 
