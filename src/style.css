@@ -1,16 +1,19 @@
-#container{
+.containerHtml{
 
   overflow-x: scroll;
   overflow-y: hidden;
   white-space: nowrap;
-
+  margin-top: 30px;
 }
 
 .container {
 
  display: inline-block;
 
-}
+  }
+
+
+.container:hover #imgPoster{transform:scale(1.2); filter: saturate(190%);}
 
 body{
 background-image: url("http://static1.squarespace.com/static/533476eee4b044cf7c28f6ca/533482dee4b009cdbfa189eb/54b8628ae4b09cb81d7f998c/1421376050830/?format=1500w");
