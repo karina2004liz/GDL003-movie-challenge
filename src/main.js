@@ -26,8 +26,9 @@ const elektra = ["tt0357277","tt1340773","tt1513070","tt0277689","tt1920913","tt
 
 movieCard=(data)=>{
         return   `<div class= container>
-          <img id= imgPoster src="${data.Poster}" style= "width: 135px; height: 210px">
-                  </div>
+          <img id= imgPoster src="${data.Poster}" style= "width: 140px; height: 215px">
+          </div>
+
 `
 };
 
