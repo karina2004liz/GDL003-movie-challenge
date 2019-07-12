@@ -30,7 +30,17 @@ margin-bottom: 0rem;
 
 .container {
  display: inline-block;
-}
+
+   }
+
+
+ .container:hover #imgPoster{transform:scale(1.2); filter: saturate(190%);}
+
+ .containerPrincipal{
+ margin-left: 70px;
+ margin-right: 70px;
+
+ }
 
 main{
 background-color: #861B1C;
