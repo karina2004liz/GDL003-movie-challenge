@@ -1,63 +1,136 @@
+*{
+    padding: 0;
+    margin: 0;
+    border: 0;
+}
 
 header{
-  background-image: url("http://pavbca.com/walldb/original/c/5/2/322811.jpg");
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-attachment: scroll;
+    background-image: url("http://pavbca.com/walldb/original/c/5/2/322811.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-bottom: 1rem;
+    background-attachment: fixed;
+    top: 0;
+    position: center;
+    width: 100%;
+    height: 40rem;
 }
 
-.MarvelGif{
-  background-size: 15rem 20rem;
-  background-repeat: no-repeat;
-  background-attachment: local ;
-  max-width: 100%
-  padding: 15em;
-
+.MarvelGif {
+    background-size: 15rem 20rem;
+    background-repeat: no-repeat;
+    background-attachment: local;
+    max-width: 100%;
+    padding: 28rem;
 }
+
 .MarvelGif #imgmarvel{
-  margin-right: 10rem;
-  margin-top:20rem;
-  margin-bottom: 0rem;
-  margin-left: 30rem;
-  width: 20rem;
-  height: 11rem;
+    margin: auto;
+    width: 28rem;
+    height: 11rem;
+    background-attachment: fixed;
+    position: center;
 }
 
+body {
+    background-color: #861B1C;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    line-height: 2rem;
+    margin-bottom: 1rem;
+    margin-top: 1rem;
+}
+
+h2 {
+    color: #0f0303;
+    font-size: 3rem;
+}
+
+h2:hover {
+    color: #520404;
+    transition: all .3s;
+}
+
+#header {
+    float: right;
+    margin-top: 0;
+    padding: 3.5rem;
+    position: relative;
+}
+
+    .navigation{
+        margin:auto;
+        width: 10rem;
+        font-family: Arial, Helvetica, sans-serif;
+        text-align: center;
+    }
+
+    ul, ol{
+        list-style:none;
+    }
+
+    .nav li a {
+        background-color: #000;
+        color: #fff;
+        text-decoration:none;
+        padding: 1rem 1rem; 
+        display:block;    
+    }
+
+    .nav li a:hover {
+        background-color: #434343;
+        color: rgb(235, 28, 28);
+    }
+
+    .nav li ul {
+        display:none;
+        position: absolute;
+        min-width: 10rem;
+    }
+
+    .nav li:hover > ul{
+        display:block;
+    }
+
+    .nav li ul li {
+        position:relative;
+    }
+
+    .nav li ul li ul {
+        right: 10.2rem;
+        top: 0px;
+    }
+
+    .nav li ul li ul li ul {
+        right: 10.1rem;
+        top: 0px;
+    }
+
+    .nav .xmen {
+        right: 10.2rem;
+        top: 0px;
+    }
 
 .containerHtml{
-
-
-  overflow-x: scroll;
-  overflow-y: hidden;
-  white-space: nowrap;
-  margin-top: 30px;
+    overflow-x: scroll;
+    overflow-y: hidden;
+    white-space: nowrap;
+    margin-top: 2rem;
+    line-height: 2rem;
+    margin-bottom: 3rem;
+    padding: 1rem;
 }
 
 .container {
-
- display: inline-block;
-
-  }
-
+    display: inline-block;
+}
 
 .container:hover #imgPoster{transform:scale(1.2); filter: saturate(190%);}
-
 .containerPrincipal{
-margin-left: 70px;
-margin-right: 70px;
-
+    margin-left: 5rem;
+    margin-right: 5rem;
+    margin-top: 8rem;
 }
 
 
-
-main{
-background-color: #861B1C;
-background-size: cover;
-background-repeat: no-repeat;
-background-attachment: fixed;
-}
-
-h1,h2{
-
-  color: red;
-}
