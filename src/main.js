@@ -43,11 +43,6 @@ movieCard=(data)=>{
              </div>
            </div>
          </div>
-
-
-
-
-
 `
 };
 
@@ -86,8 +81,85 @@ fetch('https://www.omdbapi.com/?i='+ item + '&apikey=98d30079')
 });
 });
 
+doctorstrange.forEach( function(item) {
+fetch('https://www.omdbapi.com/?i='+ item + '&apikey=98d30079')
+  .then(res => res.json())
+   .then(data => {
+ document.getElementById('container12').innerHTML += movieCard(data);
+});
+});
 
+wolverine.forEach( function(item) {
+fetch('https://www.omdbapi.com/?i='+ item + '&apikey=98d30079')
+  .then(res => res.json())
+   .then(data => {
+ document.getElementById('container6').innerHTML += movieCard(data);
+});
+});
 
+blackpanther.forEach( function(item) {
+fetch('https://www.omdbapi.com/?i='+ item + '&apikey=98d30079')
+  .then(res => res.json())
+   .then(data => {
+ document.getElementById('container7').innerHTML += movieCard(data);
+});
+});
+
+daredevil.forEach( function(item) {
+fetch('https://www.omdbapi.com/?i='+ item + '&apikey=98d30079')
+  .then(res => res.json())
+   .then(data => {
+ document.getElementById('container8').innerHTML += movieCard(data);
+});
+});
+
+avengers.forEach( function(item) {
+fetch('https://www.omdbapi.com/?i='+ item + '&apikey=98d30079')
+  .then(res => res.json())
+   .then(data => {
+ document.getElementById('container9').innerHTML += movieCard(data);
+});
+});
+
+captainAmerica.forEach( function(item) {
+fetch('https://www.omdbapi.com/?i='+ item + '&apikey=98d30079')
+  .then(res => res.json())
+   .then(data => {
+ document.getElementById('container10').innerHTML += movieCard(data);
+});
+});
+
+captainAmerica.forEach( function(item) {
+fetch('https://www.omdbapi.com/?i='+ item + '&apikey=98d30079')
+  .then(res => res.json())
+   .then(data => {
+ document.getElementById('container10').innerHTML += movieCard(data);
+});
+});
+
+guardiansOfTheGalaxy.forEach( function(item) {
+fetch('https://www.omdbapi.com/?i='+ item + '&apikey=98d30079')
+  .then(res => res.json())
+   .then(data => {
+ document.getElementById('container11').innerHTML += movieCard(data);
+});
+});
+
+deadpool.forEach( function(item) {
+fetch('https://www.omdbapi.com/?i='+ item + '&apikey=98d30079')
+  .then(res => res.json())
+   .then(data => {
+ document.getElementById('container5').innerHTML += movieCard(data);
+});
+});
+
+antman.forEach( function(item) {
+fetch('https://www.omdbapi.com/?i='+ item + '&apikey=98d30079')
+  .then(res => res.json())
+   .then(data => {
+ document.getElementById('container13').innerHTML += movieCard(data);
+});
+});
 
 
 /*
