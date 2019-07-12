@@ -1,3 +1,4 @@
+
 *{
     padding: 0;
     margin: 0;
@@ -122,9 +123,45 @@ h2:hover {
     padding: 1rem;
 }
 
+header{
+  background-image: url("http://pavbca.com/walldb/original/c/5/2/322811.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  padding: 20rem 20rem;
+}
+
+.barramenu{
+background-color:#000000;
+background-repeat: no-repeat;
+background-attachment: scroll;
+background-position: 0% 50%;
+padding: 1.875rem 1.875rem;
+margin-bottom: 0rem;
+}
+
+.containerPrincipal{
+  background-color:#861B1C;
+  margin-top:0rem;
+}
+
+#container,#container2{
+
+  overflow-x: scroll;
+  overflow-y: hidden;
+  white-space: nowrap;
+
+}
+
+.container {
+ display: inline-block;
+
+   }
+
 .container {
     display: inline-block;
 }
+
 
 .container:hover #imgPoster{transform:scale(1.2); filter: saturate(190%);}
 .containerPrincipal{
@@ -132,5 +169,23 @@ h2:hover {
     margin-right: 5rem;
     margin-top: 8rem;
 }
+ .container:hover #imgPoster{transform:scale(1.2); filter: saturate(190%);}
 
+
+ .containerPrincipal{
+ margin-left: 70px;
+ margin-right: 70px;
+
+ }
+
+main{
+background-color: #861B1C;
+background-size: cover;
+background-repeat: no-repeat;
+background-attachment: fixed;
+}
+
+h1,h2{
+  color: white;
+}
 
