@@ -1,15 +1,16 @@
-
 *{
     padding: 0;
     margin: 0;
     border: 0;
+    vertical-align: baseline;
+    box-sizing: border-box;
 }
 
 header{
     background-image: url("http://pavbca.com/walldb/original/c/5/2/322811.jpg");
     background-size: cover;
     background-repeat: no-repeat;
-    margin-bottom: 1rem;
+    margin-bottom: 0;
     background-attachment: fixed;
     top: 0;
     position: center;
@@ -58,6 +59,7 @@ h2:hover {
     margin-top: 0;
     padding: 3.5rem;
     position: relative;
+    padding-top: 0;
 }
 
     .navigation{
@@ -123,69 +125,33 @@ h2:hover {
     padding: 1rem;
 }
 
-header{
-  background-image: url("http://pavbca.com/walldb/original/c/5/2/322811.jpg");
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-attachment: scroll;
-  padding: 20rem 20rem;
+.container {
+    display: inline-block;
 }
 
-.barramenu{
-background-color:#000000;
-background-repeat: no-repeat;
-background-attachment: scroll;
-background-position: 0% 50%;
-padding: 1.875rem 1.875rem;
-margin-bottom: 0rem;
-}
-
+.container:hover #imgPoster{transform:scale(1.2); filter: saturate(190%);}
 .containerPrincipal{
-  background-color:#861B1C;
-  margin-top:0rem;
+    margin-left: 5rem;
+    margin-right: 5rem;
+    margin-top: 9rem;
 }
 
 #container,#container2{
-
   overflow-x: scroll;
   overflow-y: hidden;
   white-space: nowrap;
 
 }
 
-.container {
- display: inline-block;
+/*
+.barramenu{
+    background-color:#000000;
+    width: 60rem;
+    height: 3.5rem;
+    position: absolute;
+    float: right;
+    padding-top: 0;
+    z-index: -200px;
+}*/
 
-   }
-
-.container {
-    display: inline-block;
-}
-
-
-.container:hover #imgPoster{transform:scale(1.2); filter: saturate(190%);}
-.containerPrincipal{
-    margin-left: 5rem;
-    margin-right: 5rem;
-    margin-top: 8rem;
-}
- .container:hover #imgPoster{transform:scale(1.2); filter: saturate(190%);}
-
-
- .containerPrincipal{
- margin-left: 70px;
- margin-right: 70px;
-
- }
-
-main{
-background-color: #861B1C;
-background-size: cover;
-background-repeat: no-repeat;
-background-attachment: fixed;
-}
-
-h1,h2{
-  color: white;
-}
 
